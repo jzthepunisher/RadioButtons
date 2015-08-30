@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rdbGp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rdb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:text="Opción 1"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rdb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:text="Opción 2"
+            />
+
+        <RadioButton
+            android:id="@+id/rdb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:text="Opción 3"
+            />
+
+        <RadioButton
+            android:id="@+id/rdb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:text="Opción 4"
+            />
+
+        <RadioButton
+            android:id="@+id/rdb5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:text="Opción 5"
+            />
+
+    </RadioGroup>
+</LinearLayout>
